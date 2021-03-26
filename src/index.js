@@ -1,6 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+
+const Content = ... {
+  return (
+    <div>
+      <Part .../>
+      <Part .../>
+      <Part .../>
+    </div>
+  )
+}
+
 const App = () => {
   const course = 'Half Stack application development'
   const part1 = 'Fundamentals of React'
